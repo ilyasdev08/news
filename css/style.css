@@ -1,0 +1,103 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER - START */
+
+/* Navigation - Start */
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto';
+}
+
+.header__nav {
+    height: 101px;
+
+}
+
+.header__content {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list>li {
+    list-style: none;
+}
+
+.header__link {
+    color: #3A3838;
+    text-decoration: none;
+    padding: 43px 16px;
+}
+
+.header__link:hover {
+    color: #EF4423;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+}
+
+.header__img {
+    padding-right: 145px;
+    padding-left: 145px;
+}
+
+.block {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.information__capital {
+    width: 350px;
+    height: 386px;
+    color: #FFFFFF;
+    background: #B71C1C;
+
+}
+
+.information__link {
+    padding: 8px 15px;
+}
+
+.information__pardons {
+    width: 350px;
+    height: 380px;
+    color: #FFFFFF;
+    background: #6A1B9A;
+}
+
+
+.information__trump {
+    width: 350px;
+    height: 386px;
+    color: #FFFFFF;
+    background: #303F9F;
+}
+
+.information__working {
+    width: 350px;
+    height: 380px;
+    color: #FFFFFF;
+    background: #00695C;
+}
+
+/* Navigation - End */
+
+/* HEADER - END */
